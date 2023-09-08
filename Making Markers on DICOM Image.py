@@ -11,7 +11,7 @@ import numpy as np
 from pydicom.pixel_data_handlers.util import apply_modality_lut
 
 # Loading the wanted DICOM image for making spot dots.
-dicom_file_path = 'mrıscan.dcm'
+dicom_file_path = 'mrıscan.dcm' #write the file name that chosen.
 dicom_image = pydicom.dcmread(dicom_file_path)
 
 # Decompressing
